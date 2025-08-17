@@ -20,7 +20,7 @@
   (package
     (inherit neovim)
     (name "neovim-latest")
-    (version "0.11.2")
+    (version "0.11.3")
     (source (origin
               (method git-fetch)
               (uri (git-reference
@@ -29,7 +29,7 @@
               (file-name (git-file-name name version))
               (sha256
                (base32
-                "14zy1mk8h72dhz8sn546l5qyl2lzfpj6nspvgskpsdj19f6abn54"))))
+                "07kg1wkv0dhxj8a1xfzj2dnwsp232vd16n1j6jyxs0vvcqqbg5jj"))))
     (inputs (list libuv-for-luv
                   msgpack
                   libtermkey
